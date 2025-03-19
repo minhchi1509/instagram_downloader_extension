@@ -2,8 +2,10 @@
 
 ## Tính năng chính
 
-- Tải xuống tất cả ảnh, video trên bài viết, reels, highlight story hoặc story của một user (profile công khai hoặc private nếu bạn đã theo dõi họ)
-- Thiết lập tùy chọn cho tiến trình tải, có hủy tiến trình khi đang tải
+- Tải xuống tất cả ảnh, video trên bài viết, reels, highlight story của một user (profile công khai hoặc private nếu bạn đã theo dõi họ).
+- Đối với bài viết và reel, sau khi tải xong sẽ kèm theo một file CSV chứa thông tin về từng bài viết, reel.
+- Tất cả ảnh, video sau khi được tải xuống sẽ được lưu ở thư mục **Downloads/instagram_downloader/[username]/**
+- Thiết lập tùy chọn cho tiến trình tải, có hủy tiến trình khi đang tải.
 - Tải xuống riêng lẻ theo từng bài viết, reel, highlight story.
 
 ## Cài đặt
