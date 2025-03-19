@@ -38,16 +38,14 @@
       "downloads",
       "webRequest",
       "webRequestBlocking",
-      "https://*.instagram.com/*",
-      "https://*.cdninstagram.com/*",
+      "<all_urls>",
       "activeTab",
       "scripting",
       "tabs",
       "storage"
     ],
     "host_permissions": [
-      "https://*.instagram.com/*",
-      "https://*.cdninstagram.com/*"
+      "<all_urls>"
     ]
   }
 }
