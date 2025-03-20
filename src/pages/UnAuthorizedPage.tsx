@@ -1,6 +1,7 @@
 import { Button } from "antd"
 import axios from "axios"
 import { useState } from "react"
+
 import { AppLogo } from "src/assets/images"
 import { EStorageKey } from "src/constants/enum"
 import { getCurrentUserInfor } from "src/services"
@@ -16,14 +17,12 @@ const UnAuthorizedPage = () => {
     setIsSigningIn(true)
     try {
       const cookies = await chromeUtils.getChromeCookies("instagram.com")
-      console.log("Cookies", cookies)
 
       const axiosInstance = axios.create({
         baseURL: "https://www.instagram.com/graphql/query",
         headers: { cookie: cookies }
       })
       const profileInfor = await getCurrentUserInfor(axiosInstance)
-      console.log("Profile infor", profileInfor)
 
       const { data } = await axiosInstance.get(profileInfor.avatarUrl, {
         responseType: "blob",

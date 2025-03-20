@@ -10,5 +10,5 @@
 
 ## Cài đặt
 
-- Tải về và giải nén file zip của extension tại đường link sau: [Instagram Downloader Extension](https://drive.google.com/file/d/1TqXFIO_S8GZl7sx2kLRagv3cviWX9i9a/view?usp=drive_link)
-- Vào [Chrome Extension](chrome://extensions/), chọn **Load unpacked ➡️** Upload folder vừa giải nén lên, sau đó click vào icon của extension để mở trang Option và sử dụng.
+- Click vào đây để tải xuống extension: [Instagram Downloader Extension](https://github.com/minhchi1509/instagram_downloader_extension/raw/main/instagram_downloader_extension.zip)
+- Giải nén, vào **Chrome Extension**, chọn **Load unpacked** ➡️ Upload folder vừa giải nén lên, sau đó click vào icon của extension để mở trang Option và sử dụng.

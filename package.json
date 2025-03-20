@@ -6,14 +6,17 @@
   "author": "minhchi1509",
   "scripts": {
     "dev": "plasmo dev",
-    "build": "plasmo build",
-    "package": "plasmo package"
+    "build": "plasmo build --zip && mv build/chrome-mv3-prod.zip instagram_downloader_extension.zip",
+    "package": "plasmo package",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.23.0",
+    "@fast-csv/format": "^5.0.2",
     "antd": "^5.24.4",
     "axios": "^1.8.3",
     "dayjs": "^1.11.13",
+    "fast-csv": "^5.0.2",
     "plasmo": "0.90.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
